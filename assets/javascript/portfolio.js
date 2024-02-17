@@ -1,7 +1,7 @@
 /*
 
 Credits:
-    - Lummit - https://http://blissmakemoneyy.us.to// | https://github.com/Lumm1t/ | Discord: Lummit#0201
+    - Lummit - https://http://blissw.github.io | https://github.com/Lumm1t/ | Discord: Lummit#0201
     - expl0it, shellcode.team
     - Steam (emoticon: https://steamcommunity-a.akamaihd.net/economy/emoticon/mgh_17)
     - Trollface image (http://www.rw-designer.com/icon-image/7835-256x256x32.png)
@@ -23,7 +23,7 @@ Thanks for:
     - animate.css
     - typed.js
 
-GitHub: https://github.com/Lumm1t/http://blissmakemoneyy.us.to/
+GitHub: https://github.com/Lumm1t/http://blissw.github.io
 
 */
 
@@ -94,7 +94,7 @@ $('html').on('contextmenu', (event) => {
   img.src = 'assets/others/trollface.jpg';
   img.width = 64;
   img.height = 64;
-  img.alt = 'http://blissmakemoneyy.us.to/';
+  img.alt = 'http://blissw.github.io';
   img.style = `position: absolute; left: ${event.pageX}px; top: ${event.pageY}px; z-index: 10`;
   img.className = `troll ${trollfaceLight}`;
 
@@ -151,7 +151,7 @@ $.getJSON(ipgeolocation, (data) => {
 
       clearCursor();
 
-      writeLine([`<i style='color: #F62459'>http://blissmakemoneyy.us.to/ $$$</i>`], 120, 500, () => {
+      writeLine([`<i style='color: #F62459'>http://blissw.github.io $$$</i>`], 120, 500, () => {
         timeouts.push(
           setTimeout(() => {
             if (app.skippedIntro) return;
